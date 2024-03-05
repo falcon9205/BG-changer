@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div className={`h-screen w- flex ${color}`}>
-      <nav className='bg-gray-700 space-x-11 justify-center h-12 w-1/2 p-2 rounded-3xl m-3'>
+      <nav className='bg-gray-700 space-x-11  h-1/3  md:h-12 w-1/2 p-2 rounded-3xl m-3'>
         <button className='bg-blue-600 rounded-full p-1' onClick={()=>{setColor("bg-blue-600")}}>Blue</button>
         <button className='bg-green-600 rounded-full p-1' onClick={()=>{setColor("bg-green-600")}}>Green</button>
         <button className='bg-gray-600 rounded-full p-1' onClick={()=>{setColor("bg-gray-600")}}>Gray</button>
@@ -17,7 +17,7 @@ function App() {
         <button className='bg-yellow-600 rounded-full p-1' onClick={()=>{setColor("bg-yellow-600")}}>Yellow</button>
         <button className='bg-orange-600 rounded-full p-1' onClick={()=>{setColor("bg-orange-600")}}>Orange</button>
       </nav>
-      <nav className='bg-gray-700 space-x-11 justify-center h-12 w-1/2 p-2 rounded-3xl m-3'>
+      <nav className='bg-gray-700 space-x-11 h-1/3  md:h-12 w-1/2 p-2 rounded-3xl m-3'>
         <button className='bg-gradient-to-r from-indigo-500  rounded-full p-1'  onClick={()=>{setColor("bg-gradient-to-r from-indigo-500")}}>Indigo</button>
         <button className='bg-gradient-to-r from-cyan-500  rounded-full p-1' onClick={()=>{setColor("bg-gradient-to-r from-cyan-500")}}>Cyan</button>
         <button className='bg-gradient-to-r from-red-500 rounded-full p-1' onClick={()=>{setColor("bg-gradient-to-r from-red-500")}}>Lavendar</button>
